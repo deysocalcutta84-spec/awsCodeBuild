@@ -7,7 +7,7 @@ phases:
 
   pre_build:
     commands:
-      - echo "$SSH_PRIVATE_KEY" > sd12_key.pem
+      - echo "$SSH_PRIVATE_KEY1" > sd12_key.pem
       - chmod 400 sd12_key.pem
 
   build:
